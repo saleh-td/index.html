@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css">    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOS BURGER</title>
+</head>
+<body>
+    <div class="burgers">
+        <div class="burgers">
+            <img src="d2.jpg" alt="BURGER" />
+            <span> petit </span>
+            <button>choisir</button>
+        </div>
+        <div class="burgers">
+            <img src="Sans 2.jpg" alt="BURGER" />
+            <span> Maxi </span>
+            <button>choisir</button>
+        </div>
+        <div class="burgers">
+            <img src="Sans t.jpg" alt="BURGER" />
+            <span> Moyen </span>
+            <button>choisir</button>
+        </div>
+        <div class="burgers">
+            <img src="Sans titre.jpg" alt="BURGER" />
+            <span> XL </span>
+            <button>choisir</button>
+        </div>
+    </div>
+
+    <script>
+
+const buttons = document.querySelectorAll('.burgers button');
+
+buttons.forEach((button, index) => {
+    button.addEventListener('click', () => {
+        
+        alert(`Acheter le burger ${index + 1}`);
+    });
+});
+
+    </script>
+</body>
+</html>
