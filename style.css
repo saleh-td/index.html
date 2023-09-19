@@ -1,0 +1,38 @@
+
+body{
+    background-color: aquamarine;
+}
+.burgers{
+    display: flex;
+    justify-content: space-around; 
+  }
+
+  .burger1{
+    text-align: left;
+}
+
+.burger2{
+    text-align: center;
+}
+
+.burger3{
+    text-align: right;
+}
+
+.burgers img {
+    max-width: 100%;
+}
+
+.burgers span {
+    bottom: 10;
+    left: 10;
+    right: 10;
+}
+
+.button{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color:red;
+}
